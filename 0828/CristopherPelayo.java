@@ -1,5 +1,5 @@
 public class CristopherPelayo {
-    public static void main(Strings []args){
-        System.out.println("Hola Mundo!")
+    public static void main(String[] args){
+        System.out.println("Hola Mundo!");
     }
 }
