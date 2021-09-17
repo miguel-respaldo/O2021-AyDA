@@ -1,5 +1,5 @@
+public class AlgoritmoBasico {
 
-public class AlgoritmoSMP{
     public static int[] emparejar(int[][] MM, int[][] MH) {
         int M;
         int h;
@@ -56,4 +56,5 @@ public class AlgoritmoSMP{
             System.out.println("(" + i + "," + MM[i][VM[i]] +  ")");
         }
     }
+
 }
