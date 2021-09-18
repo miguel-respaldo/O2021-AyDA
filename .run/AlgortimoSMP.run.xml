@@ -1,7 +1,8 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="OrdenamientoBurbuja" type="Application" factoryName="Application">
     <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-15.0.2" />
-    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="CarlosEsquivel" />
+    <module name="O2021-AyDA" />
     <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/0918/za210112170" />
     <method v="2">
       <option name="Make" enabled="true" />
