@@ -3,25 +3,34 @@ import java.util.Scanner;
 public class binearSearch {
 
     public static void main(String[] args){
-        Scanner sr = new Scanner(System.in);
+          Scanner sr = new Scanner(System.in);
+          System.out.println ("--------------------------");
+          System.out.println ("BUSQUEDA BINARIA");
+          System.out.println ("By:Yazmin Salinas Perez");
+          System.out.println ("--------------------------");
 
-        int f = sr.nextInt ();
-        int n = sr.nextInt ();
-        int attr [] = new int [n];
-        for (int i=0;i<n;i++){
-            attr[i]=sr.nextInt();
-        }
-        int index = searchmy(attr,f,n);
-        if (index==-1){
-            System.out.println ("No encontrado");
-        }else{
-            System.out.println (f + "encontró que el índice es:" + index);
-        }
+         System.out.println ("Ingrese el numero que desea encontrar: ");
+          int f = sr.nextInt ();
+         System.out.println ("¿Cuantos numeros ingresara?: ");
+          int n = sr.nextInt ();
+
+          int attr [] = new int [n];
+          for (int i=0;i<n;i++){
+              System.out.println ("Numero: "+ String.valueOf(i+1)+":");
+              attr[i]=sr.nextInt();
+          }
+          int index = searchmy(attr,f,n);
+          if (index==-1){
+              System.out.println ("No encontrado");
+          }else{
+              System.out.println (f + "encontró que el índice es:" + index);
+          }
     }
+
+
     static int  searchmy(int att[],int m ,int n){
         int low = 0;
         int high=att.length-1;
-
         return searchmy(att,m,n,low,high);
     }
 
