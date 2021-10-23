@@ -1,6 +1,5 @@
 import java.util.Arrays;
-
-public class OrdenamientoBurbuja {
+class OrdenamientoBurbujag {
 
     public static void main(String[] args) {
         System.out.println("Ordenamiento Burbuja");
