@@ -54,7 +54,7 @@ public class ComparacionAlgoritmosOrdenamiento {
         long tiempoFinalRapido = System.currentTimeMillis();
 
         //System.out.println("El arreglo ordenado con seleccion es:" + Arrays.toString(vectorSeleccion));
-        System.out.println("Segundos transcurridos con ordenamiento rapido: " + (tiempoInicialRapido - tiempoFinalRapido) / 1000f);
+        System.out.println("Segundos transcurridos con ordenamiento rapido: " + (tiempoFinalRapido - tiempoInicialRapido ) / 1000f);
 
     }
 
