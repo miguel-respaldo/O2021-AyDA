@@ -60,7 +60,7 @@ public class OrdenamientoRapido {
 
 
     // Divide y vencerás
-    private static void quicksort(int arreglo[], int izquierda, int derecha) {
+    public static void quicksort(int arreglo[], int izquierda, int derecha) {
         if (izquierda < derecha) {
             int indiceParticion = particion(arreglo, izquierda, derecha);
             quicksort(arreglo, izquierda, indiceParticion);
