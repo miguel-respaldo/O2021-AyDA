@@ -1,4 +1,4 @@
-public class BusquedaBinaria {
+public class Busquedabinariaa {
     public static void main(String[] args) {
 
         int[] rant = new int[35];
